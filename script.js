@@ -985,7 +985,7 @@
          'amountPaid': (winAmount - (winAmount * 0.015)),
      }
      console.log(postData);
-     axios.post(`${DB_URL}/api/game/mineSweeper`, {
+     axios.post(`${DB_URL}/api/game/battleShip`, {
          ...postData
      });
  }
